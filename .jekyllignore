@@ -1,0 +1,17 @@
+# Ignore node_modules everywhere
+node_modules/
+**/node_modules/
+
+# Ignore backend code
+Backend/
+
+# Ignore frontend React app
+frontend/
+
+# Ignore admin React app
+admin/
+
+# Ignore dependency lock/config files
+package.json
+package-lock.json
+yarn.lock
