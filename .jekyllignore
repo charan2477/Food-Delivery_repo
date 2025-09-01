@@ -1,17 +1,16 @@
-# Ignore node_modules everywhere
-node_modules/
-**/node_modules/
-
-# Ignore backend code
+# Ignore backend code and dependencies
 Backend/
-
-# Ignore frontend React app
 frontend/
-
-# Ignore admin React app
 admin/
+node_modules/
 
-# Ignore dependency lock/config files
+# Ignore package manager files
 package.json
 package-lock.json
 yarn.lock
+pnpm-lock.yaml
+
+# Ignore build and config files
+vite.config.js
+.eslintrc.js
+eslint.config.js
