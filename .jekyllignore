@@ -1,16 +1,67 @@
-# Ignore backend code and dependencies
-Backend/
-frontend/
-admin/
+# ----------------------------
+# Node.js dependencies
+# ----------------------------
 node_modules/
+**/node_modules/
 
-# Ignore package manager files
-package.json
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+# ----------------------------
+# Build outputs
+# ----------------------------
+dist/
+build/
+.cache/
+out/
 
-# Ignore build and config files
-vite.config.js
-.eslintrc.js
-eslint.config.js
+# ----------------------------
+# Logs
+# ----------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# ----------------------------
+# OS / Editor junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ----------------------------
+# Backend
+# ----------------------------
+Backend/node_modules/
+Backend/dist/
+Backend/build/
+
+# ----------------------------
+# Frontend React app
+# ----------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# ----------------------------
+# Admin React app
+# ----------------------------
+admin/node_modules/
+admin/dist/
+admin/build/
+
+# ----------------------------
+# Environment & local configs
+# ----------------------------
+.env
+.env.local
+.env.*.local
+
+# ----------------------------
+# Package manager lock files
+# (Optional: uncomment one if you don't want to commit locks)
+# ----------------------------
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
